@@ -3,7 +3,7 @@ import PixelEditor from "@/components/pixelEditor";
 import { Card, CardContent } from "@/components/card";
 import { useState } from "react";
 
-export function ModelSelector() {
+function ModelSelector() {
   const [selected, setSelected] = useState<string | null>(null)
 
   const options = ["K-Nearest Neighbors", "Neural Network"]
